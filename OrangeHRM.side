@@ -1,0 +1,177 @@
+{
+  "id": "6d4dab6d-2301-4ca1-a721-7d98686f3749",
+  "version": "2.0",
+  "name": "OrangeHRM",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "27a02f9b-222b-4189-8a2c-3c3d860650d9",
+    "name": "Tab button",
+    "commands": [{
+      "id": "c442cb9b-bc46-4ce3-a7e3-3c4e3af2f8b5",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4894e32-e48d-4433-b2a5-c998d8b99971",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1431x953",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85709390-6855-4809-a8a7-556c82637429",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_admin_viewAdminModule > b",
+      "targets": [
+        ["css=#menu_admin_viewAdminModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_admin_viewAdminModule']/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Admin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c6820e-2c40-44d6-a1d3-a591d71add5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_pim_viewPimModule > b",
+      "targets": [
+        ["css=#menu_pim_viewPimModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_pim_viewPimModule']/b", "xpath:idRelative"],
+        ["xpath=//li[2]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'PIM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "498a1298-c7be-4a27-b6dc-0c9ac98f04cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_leave_viewLeaveModule > b",
+      "targets": [
+        ["css=#menu_leave_viewLeaveModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_leave_viewLeaveModule']/b", "xpath:idRelative"],
+        ["xpath=//li[3]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Leave')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe0e1a11-0b3a-49d6-8f63-f12f887eea71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_recruitment_viewRecruitmentModule > b",
+      "targets": [
+        ["css=#menu_recruitment_viewRecruitmentModule > b", "css:finder"],
+        ["xpath=//a[@id='menu_recruitment_viewRecruitmentModule']/b", "xpath:idRelative"],
+        ["xpath=//li[5]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Recruitment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8e39f8-0fa9-49b9-b405-ec9d669f8120",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_pim_viewMyDetails > b",
+      "targets": [
+        ["css=#menu_pim_viewMyDetails > b", "css:finder"],
+        ["xpath=//a[@id='menu_pim_viewMyDetails']/b", "xpath:idRelative"],
+        ["xpath=//li[6]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'My Info')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f3978dc-2717-43ab-ac59-65a857421aae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__Performance > b",
+      "targets": [
+        ["css=#menu__Performance > b", "css:finder"],
+        ["xpath=//a[@id='menu__Performance']/b", "xpath:idRelative"],
+        ["xpath=//li[7]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Performance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b05a5f-a0a7-49b9-b869-a784887eb8fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_dashboard_index > b",
+      "targets": [
+        ["css=#menu_dashboard_index > b", "css:finder"],
+        ["xpath=//a[@id='menu_dashboard_index']/b", "xpath:idRelative"],
+        ["xpath=//li[8]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f08f24d-50d3-43c3-827d-c13d9bf5dd94",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_directory_viewDirectory > b",
+      "targets": [
+        ["css=#menu_directory_viewDirectory > b", "css:finder"],
+        ["xpath=//a[@id='menu_directory_viewDirectory']/b", "xpath:idRelative"],
+        ["xpath=//li[9]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Directory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd03989-f89a-46bd-9799-bc35bac547be",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_maintenance_purgeEmployee > b",
+      "targets": [
+        ["css=#menu_maintenance_purgeEmployee > b", "css:finder"],
+        ["xpath=//a[@id='menu_maintenance_purgeEmployee']/b", "xpath:idRelative"],
+        ["xpath=//li[10]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Maintenance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5faecb3-6b9b-4c91-bb06-85760b5b68a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu_buzz_viewBuzz > b",
+      "targets": [
+        ["css=#menu_buzz_viewBuzz > b", "css:finder"],
+        ["xpath=//a[@id='menu_buzz_viewBuzz']/b", "xpath:idRelative"],
+        ["xpath=//li[11]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Buzz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d96255a-4262-4aac-bd6c-efd33e161b1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#branding > a > img",
+      "targets": [
+        ["css=#branding > a > img", "css:finder"],
+        ["xpath=//img[@alt='OrangeHRM']", "xpath:img"],
+        ["xpath=//div[@id='branding']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9078",
+      "windowTimeout": 2000
+    }, {
+      "id": "43bb7134-8bd0-4b0b-9a5a-8f0e3b4bb96b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9078}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e7e5f4ab-15d7-4ae1-ae7f-c1c1d7f9c5c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["27a02f9b-222b-4189-8a2c-3c3d860650d9"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
